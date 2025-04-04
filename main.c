@@ -86,7 +86,6 @@ int main(int argc, char *argv[]) {
         printf("Erro: ID deve ter no máximo 12 caracteres.\n");
         return EXIT_FAILURE;
     }
-
     send_individual_token_request(id, nonce);
     return EXIT_SUCCESS;
 }
